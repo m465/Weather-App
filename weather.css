@@ -1,0 +1,71 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #8B8083;
+    font-size: 24px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin: 30px;
+}
+
+.logo i {
+    font-size: 70px;
+    color:  rgb(87, 81, 81);
+}
+
+.logo span {
+    font-size: 75px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(255, 255, 254);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(186, 231, 245, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: 0;  
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 23px;
+}
+
+button:hover {
+    background-color: rgb(188, 243, 245);
+    color: #000000;
+}
+
+#weather-info {
+    margin-top: 20px;
+}

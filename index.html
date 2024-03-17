@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Check</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <i class="fas fa-cloud-sun"></i>
+        <span>Check Weather </span>
+    </div>
+</div>
+
+<div class="container">
+        <h1 class="header">Weather Update</h1>
+        <input type="text" id="city-input" placeholder="Search City">
+        <button onclick="fetchWeather()"><i class="fas fa-search"></i></button>
+        <div id="weather-info"></div>
+</div>
+
+<script src="weather.js"></script>
+</body>
+</html>
